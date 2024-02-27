@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be668b68.css",
-    "main.js": "/static/js/main.b48a1b6e.js",
+    "main.js": "/static/js/main.599af1bd.js",
     "static/media/Gotham-Black.otf": "/static/media/Gotham-Black.520408fe3462b1d14d05.otf",
     "static/media/pinkPhone.png": "/static/media/pinkPhone.9fdd2e06ab0f7358f2fb.png",
     "static/media/purplePhone.png": "/static/media/purplePhone.dc969f25a4f584077448.png",
@@ -9,10 +9,10 @@
     "static/media/blackPhone.png": "/static/media/blackPhone.5c820aa9c2954cd99d9f.png",
     "index.html": "/index.html",
     "main.be668b68.css.map": "/static/css/main.be668b68.css.map",
-    "main.b48a1b6e.js.map": "/static/js/main.b48a1b6e.js.map"
+    "main.599af1bd.js.map": "/static/js/main.599af1bd.js.map"
   },
   "entrypoints": [
     "static/css/main.be668b68.css",
-    "static/js/main.b48a1b6e.js"
+    "static/js/main.599af1bd.js"
   ]
 }
