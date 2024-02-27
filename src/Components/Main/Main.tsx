@@ -13,9 +13,17 @@ export const Main = () => {
   const onClickOrderButton = (order: number) => {
     setOrder(order);
   };
+  const handleSwipe = (event: React.WheelEvent<HTMLDivElement>) => {
+    const direction = event.deltaX > 0 ? "right" : "left";
+    if (direction === "right") {
+      setOrder(order === 1 ? 3 : order - 1);
+    } else {
+      setOrder(order === 3 ? 1 : order + 1);
+    }
+  };
 
   return (
-    <div className={style.main}>
+    <div className={style.main} onWheel={(e) => handleSwipe(e)}>
       {order === 1 && (
         <div className={style.phoneContainerPurple}>
           <div className={style.phoneContent}>

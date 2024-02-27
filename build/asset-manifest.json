@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7493d9e2.css",
-    "main.js": "/static/js/main.c650fb33.js",
+    "main.css": "/static/css/main.e2418d67.css",
+    "main.js": "/static/js/main.169a79dd.js",
     "static/media/Gotham-Black.otf": "/static/media/Gotham-Black.520408fe3462b1d14d05.otf",
     "static/media/pinkPhone.png": "/static/media/pinkPhone.9fdd2e06ab0f7358f2fb.png",
     "static/media/purplePhone.png": "/static/media/purplePhone.dc969f25a4f584077448.png",
     "static/media/introducing.png": "/static/media/introducing.727b855072734a77dd03.png",
     "static/media/blackPhone.png": "/static/media/blackPhone.5c820aa9c2954cd99d9f.png",
     "index.html": "/index.html",
-    "main.7493d9e2.css.map": "/static/css/main.7493d9e2.css.map",
-    "main.c650fb33.js.map": "/static/js/main.c650fb33.js.map"
+    "main.e2418d67.css.map": "/static/css/main.e2418d67.css.map",
+    "main.169a79dd.js.map": "/static/js/main.169a79dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7493d9e2.css",
-    "static/js/main.c650fb33.js"
+    "static/css/main.e2418d67.css",
+    "static/js/main.169a79dd.js"
   ]
 }
