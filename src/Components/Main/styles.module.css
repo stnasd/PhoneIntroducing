@@ -117,30 +117,30 @@
   position: absolute;
   top: 50%;
   right: -0.8vw;
-  width: 13vw;
+  width: 20vw;
   height: 1px;
   background-color: rgb(170, 160, 243);
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 .phonePriceBlack span:after {
   content: "";
   position: absolute;
   top: 50%;
   right: -0.8vw;
-  width: 13vw;
+  width: 20vw;
   height: 1px;
   background-color: rgb(78, 78, 78);
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 .phonePricePink span:after {
   content: "";
   position: absolute;
   top: 50%;
   right: -0.8vw;
-  width: 13vw;
+  width: 20vw;
   height: 1px;
   background-color: rgb(255, 152, 185);
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 
 .phoneDescription {

@@ -14,7 +14,7 @@ export const Main = () => {
     setOrder(order);
   };
   const handleSwipe = (startX: number, endX: number) => {
-    const sensitivity = 50;
+    const sensitivity = 10;
     if (startX - endX > sensitivity) {
       setOrder(order === 3 ? 1 : order + 1);
     } else if (endX - startX > sensitivity) {
