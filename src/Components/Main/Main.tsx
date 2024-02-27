@@ -13,17 +13,32 @@ export const Main = () => {
   const onClickOrderButton = (order: number) => {
     setOrder(order);
   };
-  const handleSwipe = (event: React.WheelEvent<HTMLDivElement>) => {
-    const direction = event.deltaX > 0 ? "right" : "left";
-    if (direction === "right") {
-      setOrder(order === 1 ? 3 : order - 1);
-    } else {
+  const handleSwipe = (startX: number, endX: number) => {
+    const sensitivity = 50;
+    if (startX - endX > sensitivity) {
       setOrder(order === 3 ? 1 : order + 1);
+    } else if (endX - startX > sensitivity) {
+      setOrder(order === 1 ? 3 : order - 1);
     }
   };
 
+  let startX = 0;
+
+  const onTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    startX = e.touches[0].clientX;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+    const endX = e.changedTouches[0].clientX;
+    handleSwipe(startX, endX);
+  };
+
   return (
-    <div className={style.main} onWheel={(e) => handleSwipe(e)}>
+    <div
+      className={style.main}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+    >
       {order === 1 && (
         <div className={style.phoneContainerPurple}>
           <div className={style.phoneContent}>
