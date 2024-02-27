@@ -14,8 +14,9 @@
   margin-bottom: 2vh;
 }
 .conditionIcon {
+  width: 15vw;
   height: 4vh;
-  margin-right: 5vh;
+  margin-right: 3vw;
 }
 .block {
   border-radius: 10px;
