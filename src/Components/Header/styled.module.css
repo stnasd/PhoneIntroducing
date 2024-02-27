@@ -1,0 +1,48 @@
+.header {
+  height: 100%;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.runningLine {
+  height: 5vh;
+  width: 100%;
+  background-color: #ff008a;
+  overflow: hidden;
+  font-size: 4.5vh;
+  align-items: center;
+  color: #fff;
+  padding: 0px 2vh;
+}
+
+.runningLine span {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+.runningLine span:after {
+  content: " * Special offer + Free Delivery 2-4 days in UK";
+}
+.compaynLogo {
+  position: relative;
+  height: 7vh;
+  background-color: #918be4;
+}
+.logoIcon {
+  height: 4vh;
+  width: 30vw;
+  margin: 2vh;
+}
+.burgerButton {
+  position: absolute;
+  top: 2.5vh;
+  right: 2vw;
+  height: 3vh;
+}

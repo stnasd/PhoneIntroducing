@@ -1,0 +1,57 @@
+.conditionsContainer {
+  height: 110%;
+  width: 100vw;
+  background-color: #fff;
+  margin-top: -5px;
+  padding: 2vh;
+}
+.titleConditions {
+  font-size: 4.5vh;
+  font-weight: 700;
+}
+.iconsRow {
+  height: 5vh;
+  margin-bottom: 2vh;
+}
+.conditionIcon {
+  height: 4vh;
+  margin-right: 5vh;
+}
+.block {
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  border: 1px solid #f2f2f2;
+  font-size: 2.9vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 2vh;
+}
+
+.blockText {
+  color: #aaaaaa;
+}
+.blockText strong {
+  color: #000;
+}
+.blockHeader {
+  color: #ff008a;
+  font-weight: 800;
+  height: 4.5vh;
+  margin-bottom: 2vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.blockHeader img {
+  height: 4vh;
+}
+.blockName {
+  margin-left: 1.3vw;
+  font-size: 3.2vh;
+  font-weight: 900;
+}
+.dropDownButton {
+  position: absolute;
+  right: 1vw;
+  height: 2vh;
+}

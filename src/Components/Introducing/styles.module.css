@@ -1,0 +1,22 @@
+.introducingContainer {
+  height: 60.5vh;
+  width: 100vw;
+  background-color: #fff;
+  padding: 2vh;
+}
+.introducingContent {
+  font-size: 4.5vh;
+}
+.introductionTitle {
+  height: 10vh;
+  width: 55%;
+  font-weight: 700;
+}
+.introductionTitle span {
+  color: #918be4;
+}
+.introducingImage {
+  margin-top: 4vh;
+  width: 100%;
+  height: 42vh;
+}

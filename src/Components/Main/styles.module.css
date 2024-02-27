@@ -1,0 +1,220 @@
+.phoneContainerPurple {
+  position: relative;
+  height: 88vh;
+  width: 100vw;
+  margin-top: 1.5vh;
+}
+.phoneContent {
+  height: 100%;
+  width: 100%;
+  padding-left: 3vw;
+}
+.phoneContainerBlack {
+  position: relative;
+  height: 88vh;
+  width: 100vw;
+  margin-top: 1.5vh;
+  background-color: #36363e;
+}
+.phoneContainerPink {
+  position: relative;
+  height: 88vh;
+  width: 100vw;
+  margin-top: 1.5vh;
+  background-color: #f49894;
+}
+.phoneBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 88vh;
+  z-index: 2;
+}
+
+.phoneImage {
+  position: relative;
+  width: 97vw;
+  height: 60vh;
+  z-index: 3;
+}
+.phoneName {
+  position: relative;
+  z-index: 3;
+  line-height: 6vh;
+  font-size: 5.5vh;
+  color: #fff;
+  font-weight: 800;
+}
+.phonePricePurple {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  margin-top: 2vh;
+  line-height: 5.5vh;
+  font-size: 5vh;
+  color: #918be4;
+  background-color: #fff;
+  width: 40vw;
+  padding: 0.5vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.phonePricePink {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  margin-top: 2vh;
+  line-height: 5.5vh;
+  font-size: 5vh;
+  color: #f49894;
+  background-color: #fff;
+  width: 40vw;
+  padding: 0.5vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.phonePriceBlack {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  margin-top: 2vh;
+  line-height: 5.5vh;
+  font-size: 5vh;
+  color: #36363e;
+  background-color: #fff;
+  width: 40vw;
+  padding: 0.5vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.phonePricePurple span {
+  position: relative;
+  font-size: 3vh;
+  margin-left: 4vw;
+  font-weight: 100;
+  color: rgba(154, 145, 195, 0.3);
+}
+.phonePricePink span {
+  position: relative;
+  font-size: 3vh;
+  margin-left: 4vw;
+  font-weight: 100;
+  color: rgba(154, 145, 195, 0.3);
+}
+.phonePriceBlack span {
+  position: relative;
+  font-size: 3vh;
+  margin-left: 4vw;
+  font-weight: 100;
+  color: rgba(154, 145, 195, 0.3);
+}
+.phonePricePurple span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -0.8vw;
+  width: 13vw;
+  height: 1px;
+  background-color: rgb(170, 160, 243);
+  transform: rotate(-20deg);
+}
+.phonePriceBlack span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -0.8vw;
+  width: 13vw;
+  height: 1px;
+  background-color: rgb(78, 78, 78); 
+  transform: rotate(-20deg);
+}
+.phonePricePink span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -0.8vw;
+  width: 13vw;
+  height: 1px;
+  background-color: rgb(255, 152, 185);
+  transform: rotate(-20deg);
+}
+
+.phoneDescription {
+  position: relative;
+  font-display: inherit;
+  z-index: 3;
+  font-weight: 100px;
+  line-height: 4vh;
+  font-size: 3vh;
+  color: rgba(255, 255, 255, 0.3);
+}
+.phoneUnderShadow {
+  width: 77vw;
+  background-color: black;
+  position: relative;
+  z-index: 2;
+  margin-left: 10vw;
+  margin-top: -3.3vh;
+  box-shadow: 1px 1px 6px 1px #000;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.changeSlideButton {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+  bottom: 3.5vh;
+  left: 45vw;
+  z-index: 4;
+  width: 15vh;
+  height: 5vh;
+}
+.slideButtonActive {
+  width: 1.7vh;
+  height: 1.7vh;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.slideButton {
+  width: 1.5vh;
+  height: 1.5vh;
+  border-radius: 50%;
+  background-color: #d2d2d2;
+}
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  65% {
+    opacity: 0.5;
+  }
+  85% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.phoneContainerPurple {
+  animation: slideAnimation 0.5s forwards;
+}
+.phoneContainerPink {
+  animation: slideAnimation 0.5s forwards;
+}
+.phoneContainerBlack {
+  animation: slideAnimation 0.5s forwards;
+}

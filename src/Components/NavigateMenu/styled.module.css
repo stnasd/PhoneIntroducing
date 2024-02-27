@@ -1,0 +1,50 @@
+@keyframes openModalMenu {
+  from {
+    left: 100%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.navigateMenu {
+  position: absolute;
+  top: 7vh;
+  left: 0;
+  height: 93vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vw;
+  animation: openModalMenu 0.2s forwards;
+}
+.navigateMenu span {
+  font-size: 3.5vh;
+  margin-top: 4vh;
+  font-weight: 700;
+  position: relative;
+}
+.navigateMenu span img {
+  position: absolute;
+  right: 4vw;
+  height: 3vh;
+}
+.compaynLogo {
+  position: relative;
+  height: 7vh;
+  background-color: #918be4;
+}
+.logoIcon {
+  height: 4vh;
+  width: 30vw;
+  margin: 2vh;
+}
+.closeButton {
+  position: absolute;
+  top: 2.5vh;
+  right: 3vw;
+  height: 2.5vh;
+}
